@@ -20,6 +20,15 @@ p {
   font-size: 14px;
 }
 
+img {
+  width: 140px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .text-content {
   font-family: Poppins;
 }
@@ -27,5 +36,24 @@ p {
 .wrap {
   padding: 10px;
   margin-top: 70px;
+}
+
+.header-content-card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-content-card {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 7px;
+}
+
+.charge-text {
+  writing-mode: tb;
+  margin: 0px;
+  font-family: PT Serif;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
